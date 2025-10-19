@@ -1,0 +1,22 @@
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+
+# Build artifacts
+obj/
+*.apk
+*.aab
+*.unitypackage
+
+# Crash reports
+sysinfo.txt
