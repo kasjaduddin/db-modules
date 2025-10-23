@@ -44,7 +44,7 @@ public class RealtimeDatabaseManager : IDataService {
 
     public async Task<IEnumerable<T>> QueryAsync<T>(string path, QueryOptions options = null) {
         try {
-            var query = root.Child(path);
+            Query query = root.Child(path);
 
             if (options != null) {
                 if (!string.IsNullOrEmpty(options.OrderBy)) {
